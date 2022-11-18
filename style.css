@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Angkor&display=swap');
+
+h1, h2, h3, h4, h5{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Angkor', cursive;
+}
+img {
+    transition: .3s;
+}
+
+img:hover {
+    filter: brightness(0.4);
+}
+
+
+.hero-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/B1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    top: 0;
+}
+
+/*MENU*/
+.menu_card{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.691)), url(./assets/B1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #21201f;
+    color: white;
+}
+
+.menu_img{
+    width: 100%;
+    height: auto;
+}
+
+#galery_title {
+    position: relative;
+    display: inline-block;
+}
+
+.galery_text {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    padding: 20px;
+}
+
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: #2e1f10;
+    color: #a1a1a1;
+    padding: .5rem;
+    display: flex;
+    opacity: .9;
+    z-index: 10;
+    transition: .4s;
+}
+
+.scrollup:hover {
+    background-color: #21201f;
+    color: #A19484;
+    opacity: 1;
+}
+
+.scrollup__icon {
+    font-size: 5rem;
+}
+
+/* Show scroll */
+.show-scroll {
+    bottom: 5rem;
+}
+
+.logo{
+    width: 55px;
+    height: 55px;
+}
+
+#coffe-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/b2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    top: 0;
+}
+
+.img__coffe {
+    height: 350px;
+    width: 400px;
+    animation: imgRotate 50s linear infinite;
+    padding: 15px;
+}
+
+@keyframes imgRotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/b.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+}
+
+
+@media screen and (max-width: 991px){
+    .menu_title{
+        font-size: 1rem;
+    }
+    .img__coffe{
+        width: 250px;
+    }
+}
