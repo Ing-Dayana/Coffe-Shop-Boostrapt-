@@ -7,3 +7,6 @@
 
 https://user-images.githubusercontent.com/110215625/202608352-d5f14111-04cc-4270-bf88-8086b6812df0.mp4
 
+
+As a comment,
+The number of files has been reduced so you will have some margin of error when downloading the project.
